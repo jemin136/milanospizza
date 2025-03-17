@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://jemin136.github.io/milanospizza",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,7 +11,6 @@
     "lint": "eslint src --fix && tsc --noEmit",
      "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://jemin136.github.io/milanospizza",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
