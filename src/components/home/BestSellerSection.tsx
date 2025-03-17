@@ -1,5 +1,4 @@
 import { BEST_SELLERS } from '../../utils/constants';
-import { FaStar } from 'react-icons/fa';
 import Container from '../ui/Container';
 
 const BestSellerSection = () => {

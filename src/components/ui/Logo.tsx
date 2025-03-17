@@ -1,4 +1,3 @@
-import { FaPizzaSlice } from 'react-icons/fa';
 
 const Logo = () => {
   return (

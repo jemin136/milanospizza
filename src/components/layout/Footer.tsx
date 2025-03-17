@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaClock, FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaClock, FaFacebook, FaInstagram } from 'react-icons/fa';
 import { NAV_LINKS, CONTACT_INFO } from '../../utils/constants';
 import Container from '../ui/Container';
 import Logo from '../ui/Logo';
