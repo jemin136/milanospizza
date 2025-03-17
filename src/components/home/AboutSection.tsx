@@ -12,7 +12,7 @@ const AboutSection = () => {
     special and our fish is fresh and lightly coated with own made mix flour and spices.
 
     We guarentee something special for everyone. We offer big one meter long pizza.`,
-    image: '/images/pizza2.jpg',
+    image: './images/pizza2.jpg',
   };
 
   return (

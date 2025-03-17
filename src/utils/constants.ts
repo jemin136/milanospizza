@@ -33,7 +33,7 @@ export const HERO_SLIDES = [
       "Handcrafted with fresh ingredients and baked to perfection in our stone oven.",
     ctaText: "Order Now",
     ctaLink: "/menu",
-    image: "/images/pizza1.jpg",
+    image: "./images/pizza1.jpg",
   },
   {
     id: "slide2",
@@ -42,7 +42,7 @@ export const HERO_SLIDES = [
       "Check out our daily specials and combo offers to save on your favorite pizzas.",
     ctaText: "See Deals",
     ctaLink: "/menu",
-    image: "/images/pizza2.jpg",
+    image: "./images/pizza2.jpg",
   },
   {
     id: "slide3",
@@ -51,7 +51,7 @@ export const HERO_SLIDES = [
       "Let us cater your next event with our delicious pizza packages.",
     ctaText: "Learn More",
     ctaLink: "/catering",
-    image: "/images/1.png",
+    image: "./images/1.png",
   },
 ];
 
@@ -59,7 +59,7 @@ export const BEST_SELLERS = [
   {
     id: "pepperoni",
     name: "Tandoori chicken Pizza",
-    image: "/images/best_seller/1.png",
+    image: "./images/best_seller/1.png",
     price: 14.99,
     description:
       "Pizza sauce, chicken tikka, onion, fresh coriander, hot chillies, hot chilli sauce and cheese.",
@@ -69,7 +69,7 @@ export const BEST_SELLERS = [
   {
     id: "margherita",
     name: "Vegetarian Supreme",
-    image: "/images/best_seller/2.png",
+    image: "./images/best_seller/2.png",
     price: 12.99,
     description:
       "Pizza sauce, onion, pineapple, olive, mushroom, tomatoes, capsicum, spinach, and cheese",
@@ -79,7 +79,7 @@ export const BEST_SELLERS = [
   {
     id: "supreme",
     name: "Butter Paneer Masala",
-    image: "/images/best_seller/3.png",
+    image: "./images/best_seller/3.png",
     price: 16.99,
     description: "Butter sauce, onion, capsicum, paneer & cheese",
     rating: 4.8,
@@ -88,7 +88,7 @@ export const BEST_SELLERS = [
   {
     id: "veggie",
     name: "Chicken Hot Shot",
-    image: "/images/best_seller/4.png",
+    image: "./images/best_seller/4.png",
     price: 13.99,
     description:
       "Chicken, onion, capsicum, pineapple, ginger, special sauce, coriander, cheese, garlic sauce, and butter sauce.",
@@ -104,7 +104,7 @@ export const DEAL_ITEMS = [
     description: "Two large pizzas, breadsticks, and a 2-liter soda",
     originalPrice: 42.99,
     discountedPrice: 34.99,
-    image: "/images/pizza4.jpg",
+    image: "./images/pizza4.jpg",
     savings: "18%",
     expiry: "2025-05-31",
     code: "FAMILY18",
@@ -115,7 +115,7 @@ export const DEAL_ITEMS = [
     description: "Medium pizza and garlic knots for the perfect lunch",
     originalPrice: 21.99,
     discountedPrice: 15.99,
-    image: "/images/cheese.jpg",
+    image: "./images/cheese.jpg",
     savings: "27%",
     expiry: "2025-06-30",
     code: "WEEKDAY27",
@@ -126,7 +126,7 @@ export const DEAL_ITEMS = [
     description: "Three medium pizzas and two orders of wings",
     originalPrice: 49.99,
     discountedPrice: 39.99,
-    image: "/images/1.png",
+    image: "./images/1.png",
     savings: "20%",
     expiry: "2025-07-31",
     code: "GAMEDAY20",
@@ -144,7 +144,7 @@ export const MENU_CATEGORIES = [
         description:
           "Our signature pepperoni pizza with mozzarella cheese and homemade sauce",
         price: 14.99,
-        image: "/images/pepperoni.jpg",
+        image: "./images/pepperoni.jpg",
       },
       {
         id: "margherita",
@@ -152,7 +152,7 @@ export const MENU_CATEGORIES = [
         description:
           "Simple and delicious - fresh tomatoes, mozzarella, and basil on olive oil base",
         price: 12.99,
-        image: "/images/margherita.jpg",
+        image: "./images/margherita.jpg",
       },
       {
         id: "supreme",
@@ -160,7 +160,7 @@ export const MENU_CATEGORIES = [
         description:
           "Loaded with pepperoni, sausage, bell peppers, onions, olives, and mushrooms",
         price: 16.99,
-        image: "/images/supreme.jpg",
+        image: "./images/supreme.jpg",
       },
       {
         id: "meat_lovers",
@@ -168,7 +168,7 @@ export const MENU_CATEGORIES = [
         description:
           "For the carnivores - pepperoni, sausage, bacon, ham, and ground beef",
         price: 17.99,
-        image: "/images/pepperoni.jpg",
+        image: "./images/pepperoni.jpg",
       },
       {
         id: "veggie",
@@ -176,7 +176,7 @@ export const MENU_CATEGORIES = [
         description:
           "Fresh bell peppers, onions, mushrooms, tomatoes, olives, and spinach",
         price: 13.99,
-        image: "/images/veggie.jpg",
+        image: "./images/veggie.jpg",
       },
       {
         id: "bbq_chicken",
@@ -184,7 +184,7 @@ export const MENU_CATEGORIES = [
         description:
           "Grilled chicken, red onions, and cilantro on our tangy BBQ sauce base",
         price: 15.99,
-        image: "/images/buffalo.jpg",
+        image: "./images/buffalo.jpg",
       },
     ],
   },

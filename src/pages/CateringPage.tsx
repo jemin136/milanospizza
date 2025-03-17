@@ -38,7 +38,7 @@ const CateringPage = () => {
               </div>
               <div className="h-[300px] rounded-lg overflow-hidden">
                 <img
-                  src="/images/pizza1.jpg"
+                  src="./images/pizza1.jpg"
                   alt="Catered Event"
                   className="w-full h-full object-cover"
                 />
