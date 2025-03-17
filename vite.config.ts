@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     host: true
   },
-  base: '/',
+  base: '/milanospizza',
   build: {
     rollupOptions: {
       output: {
