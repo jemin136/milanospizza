@@ -15,13 +15,13 @@ const HomePage = () => {
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
-            href="/contact"
+            href="https://ordermeal.co.nz/milanos-pizza-manukau/"
             className="px-8 py-3 bg-gradient-to-r from-[#FF4500] to-[#FFA500] text-white rounded-lg font-medium hover:shadow-lg hover:brightness-110 transition-all duration-300"
           >
             Milanos Pizza Manukau
           </a>
           <a
-            href="/menu"
+            href="https://www.ordermeal.co.nz/milanos-curry-place/"
             className="px-8 py-3 bg-gradient-to-r from-[#FF4500] to-[#FFA500] text-white rounded-lg font-medium hover:shadow-lg hover:brightness-110 transition-all duration-300"
           >
             Milanos Curry Place
@@ -29,8 +29,8 @@ const HomePage = () => {
         </div>
       </div>
       <AboutSection />
-      <BestSellerSection />
       <DealsSection />
+      <BestSellerSection />
     </Layout>
   );
 };

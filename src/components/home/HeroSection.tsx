@@ -19,9 +19,8 @@ const HeroSection = () => {
       {HERO_SLIDES.map((slide, index) => (
         <div
           key={slide.id}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-            index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
-          }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
+            }`}
         >
           <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
           <img
@@ -48,12 +47,14 @@ const HeroSection = () => {
             >
               {HERO_SLIDES[currentSlide].ctaText}
             </Link>
-            <Link
-              to="/menu"
-              className="px-8 py-3 bg-transparent border-2 border-white text-white rounded-lg font-medium hover:bg-white hover:text-[#121212] transition-all duration-300"
-            >
-              View Menu
-            </Link>
+            {HERO_SLIDES[currentSlide].ctaLink1 &&
+              <Link
+                to={HERO_SLIDES[currentSlide].ctaLink1}
+                className="px-8 py-3 bg-transparent border-2 border-white text-white rounded-lg font-medium hover:bg-white hover:text-[#121212] transition-all duration-300"
+              >
+                {HERO_SLIDES[currentSlide].ctaText1}
+              </Link>
+            }
           </div>
         </div>
       </Container>
@@ -64,9 +65,8 @@ const HeroSection = () => {
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              index === currentSlide ? 'bg-[#FF4500] w-8' : 'bg-white opacity-50'
-            }`}
+            className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentSlide ? 'bg-[#FF4500] w-8' : 'bg-white opacity-50'
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           ></button>
         ))}

@@ -55,7 +55,7 @@ const BestSellerSection = () => {
 
         <div className="text-center mt-10">
           <a
-            href="/menu"
+            href="/milanospizza/menu"
             className="inline-block px-8 py-3 border-2 border-[#FF4500] text-[#FF4500] rounded-lg font-medium hover:bg-[#FF4500] hover:text-white transition-all duration-300"
           >
             View Full Menu

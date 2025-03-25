@@ -93,7 +93,7 @@ const FeedbackPage = () => {
             <div className="w-24 h-1 bg-gradient-to-r from-[#FF4500] to-[#FFA500] mx-auto mt-6"></div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-1 gap-12">
             {/* Feedback Form */}
             <div className="bg-[#1A1A1A] rounded-lg p-8 border border-[#333]">
               {isSubmitted ? (
@@ -238,7 +238,7 @@ const FeedbackPage = () => {
             </div>
 
             {/* Testimonials Section */}
-            <div>
+            {/* <div>
               <div className="sticky top-24">
                 <h2 className="text-2xl font-bold text-white mb-6">What Our Customers Say</h2>
                 <div className="space-y-6">
@@ -269,7 +269,7 @@ const FeedbackPage = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Additional CTA */}

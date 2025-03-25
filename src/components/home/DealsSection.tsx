@@ -53,7 +53,7 @@ const DealsSection = () => {
 
         <div className="text-center mt-10">
           <a
-            href="/menu"
+            href="/milanospizza/menu"
             className="inline-block px-8 py-3 bg-gradient-to-r from-[#FF4500] to-[#FFA500] text-white rounded-lg font-medium hover:brightness-110 transition-all duration-300"
           >
             View All Deals

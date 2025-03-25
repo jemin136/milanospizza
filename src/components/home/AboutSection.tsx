@@ -29,7 +29,7 @@ const AboutSection = () => {
               ))}
             </div>
             <a
-              href="/menu"
+              href="/milanospizza/menu"
               className="inline-block mt-8 px-6 py-3 bg-[#FF4500] text-white rounded-lg font-medium hover:bg-opacity-90 transition-all duration-300"
             >
               View Our Menu

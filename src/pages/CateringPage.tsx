@@ -30,7 +30,7 @@ const CateringPage = () => {
                   All packages can be customized to accommodate dietary restrictions and preferences. Contact us for more information!
                 </p>
                 <a
-                  href="/contact"
+                  href="/milanospizza/contact"
                   className="inline-block mt-6 px-8 py-3 bg-gradient-to-r from-[#FF4500] to-[#FFA500] text-white rounded-lg font-medium hover:shadow-lg hover:brightness-110 transition-all duration-300"
                 >
                   Get a Quote
@@ -104,7 +104,7 @@ const CateringPage = () => {
                   </div>
                   <div className="px-8 pb-8">
                     <a
-                      href="/contact"
+                      href="/milanospizza/contact"
                       className={`block w-full py-3 text-center rounded-lg font-medium transition-all duration-300 ${pkg.id === 'custom'
                         ? 'bg-[#252525] text-white border border-[#FF4500] hover:bg-[#FF4500] hover:text-white'
                         : 'bg-gradient-to-r from-[#FF4500] to-[#FFA500] text-white hover:brightness-110'

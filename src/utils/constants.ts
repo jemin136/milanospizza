@@ -28,11 +28,13 @@ export const CONTACT_INFO = {
 export const HERO_SLIDES = [
   {
     id: "slide1",
-    title: "Authentic Italian Pizza",
+    title: "Authentic Pizza",
     description:
       "Handcrafted with fresh ingredients and baked to perfection in our stone oven.",
-    ctaText: "Order Now",
-    ctaLink: "/menu",
+    ctaText: "Milanos Pizza Manukau",
+    ctaLink: "https://ordermeal.co.nz/milanos-pizza-manukau/",
+    ctaText1: "Milanos Curry Place",
+    ctaLink1: "https://www.ordermeal.co.nz/milanos-curry-place",
     image: "./images/pizza1.jpg",
   },
   {
@@ -42,6 +44,8 @@ export const HERO_SLIDES = [
       "Check out our daily specials and combo offers to save on your favorite pizzas.",
     ctaText: "See Deals",
     ctaLink: "/menu",
+    ctaText1: "",
+    ctaLink1: "",
     image: "./images/pizza2.jpg",
   },
   {
@@ -51,6 +55,8 @@ export const HERO_SLIDES = [
       "Let us cater your next event with our delicious pizza packages.",
     ctaText: "Learn More",
     ctaLink: "/catering",
+    ctaText1: "",
+    ctaLink1: "",
     image: "./images/1.png",
   },
 ];
