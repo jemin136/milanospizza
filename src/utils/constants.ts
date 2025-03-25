@@ -28,9 +28,9 @@ export const CONTACT_INFO = {
 export const HERO_SLIDES = [
   {
     id: "slide1",
-    title: "Authentic Pizza",
+    title: "Authentic Flavors, Unforgettable Taste",
     description:
-      "Handcrafted with fresh ingredients and baked to perfection in our stone oven.",
+      "Enjoy Milanos handcrafted pizzas, made with fresh ingredients and signature spice blends that deliver a true explosion of unforgettable flavor.",
     ctaText: "Milanos Pizza Manukau",
     ctaLink: "https://ordermeal.co.nz/milanos-pizza-manukau/",
     ctaText1: "Milanos Curry Place",
@@ -58,6 +58,17 @@ export const HERO_SLIDES = [
     ctaText1: "",
     ctaLink1: "",
     image: "./images/1.png",
+  },
+  {
+    id: "slide3",
+    title: "Big foot Pizza",
+    description:
+      "Have a big party? Try our 1-meter long pizza with your favorite toppings.",
+    ctaText: "Learn More",
+    ctaLink: "/menu",
+    ctaText1: "",
+    ctaLink1: "",
+    image: "./images/bigfoot.jpg",
   },
 ];
 
@@ -125,6 +136,17 @@ export const DEAL_ITEMS = [
     savings: "27%",
     expiry: "2025-06-30",
     code: "WEEKDAY27",
+  },
+  {
+    id: "deal3",
+    title: "Game Day Bundle",
+    description: "Three medium pizzas and two orders of wings",
+    originalPrice: 49.99,
+    discountedPrice: 39.99,
+    image: "./images/1.png",
+    savings: "20%",
+    expiry: "2025-07-31",
+    code: "GAMEDAY20",
   },
   {
     id: "deal3",
@@ -321,7 +343,7 @@ export const CATERING_PACKAGES = [
     id: "medium",
     name: "Conference Catering Menu vegetarian",
     description: "Perfect for 20-25 people",
-    price: 20.00,
+    price: 20.0,
     priceDesc: "per person",
     includes: [
       {
@@ -331,7 +353,7 @@ export const CATERING_PACKAGES = [
           "Vege Savoury",
           "Fresh Fruit Salad",
           "Vege Pizza bites",
-          "Cajun Potato"
+          "Cajun Potato",
         ],
       },
     ],
@@ -421,5 +443,5 @@ export const CATERING_PACKAGES = [
       },
       "Any additions on Extra Cost",
     ],
-  }
+  },
 ];

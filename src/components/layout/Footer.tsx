@@ -15,7 +15,7 @@ const Footer = () => {
               <Logo />
             </Link>
             <p className="text-gray-400 mt-4 mb-6">
-              Crafting authentic pizzas with the freshest ingredients and time-honored recipes since 1995.
+            Experience Milanos Pizza’s handcrafted perfection: fresh dough, signature spice blends, authentic Portuguese chicken, burgers, and even one-meter long pizzas.
             </p>
             <div className="flex space-x-4">
               <a

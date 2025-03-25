@@ -216,7 +216,7 @@ const MenuPage = () => {
                   <div className="flex flex-col md:flex-row items-center mb-6">
                     <div className="md:w-1/3 mb-4 md:mb-0">
                       <img
-                        src="/images/pizza2.jpg"
+                        src="/images/bigfoot.jpg"
                         alt="Big Foot Pizza"
                         className="w-full h-48 object-cover rounded-lg"
                       />

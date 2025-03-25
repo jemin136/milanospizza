@@ -43,14 +43,14 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               to={HERO_SLIDES[currentSlide].ctaLink}
-              className="px-8 py-3 bg-gradient-to-r from-[#FF4500] to-[#FFA500] text-white rounded-lg font-medium hover:shadow-lg hover:brightness-110 transition-all duration-300"
+              className="text-center px-8 py-3 bg-gradient-to-r from-[#FF4500] to-[#FFA500] text-white rounded-lg font-medium hover:shadow-lg hover:brightness-110 transition-all duration-300"
             >
               {HERO_SLIDES[currentSlide].ctaText}
             </Link>
             {HERO_SLIDES[currentSlide].ctaLink1 &&
               <Link
                 to={HERO_SLIDES[currentSlide].ctaLink1}
-                className="px-8 py-3 bg-transparent border-2 border-white text-white rounded-lg font-medium hover:bg-white hover:text-[#121212] transition-all duration-300"
+                className="text-center px-8 py-3 bg-transparent border-2 border-white text-white rounded-lg font-medium hover:bg-white hover:text-[#121212] transition-all duration-300"
               >
                 {HERO_SLIDES[currentSlide].ctaText1}
               </Link>
