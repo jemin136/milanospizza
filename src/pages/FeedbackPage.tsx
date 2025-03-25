@@ -2,40 +2,40 @@ import { useState } from 'react';
 import Layout from '../components/layout/Layout';
 import { FaStar } from 'react-icons/fa';
 
-const testimonials = [
-  {
-    id: 1,
-    name: 'Michael Johnson',
-    rating: 5,
-    comment: "The best pizza I've ever had! The crust is perfect - crispy on the outside, chewy on the inside. And the toppings are always fresh and abundant.",
-    date: '3 days ago',
-    image: 'https://randomuser.me/api/portraits/men/32.jpg',
-  },
-  {
-    id: 2,
-    name: 'Jessica Williams',
-    rating: 5,
-    comment: "Amazing customer service and even better pizza! My family orders from here every Friday night. Their delivery is always on time and the food arrives hot.",
-    date: '1 week ago',
-    image: 'https://randomuser.me/api/portraits/women/44.jpg',
-  },
-  {
-    id: 3,
-    name: 'Robert Smith',
-    rating: 4,
-    comment: "Great quality for the price. I love their special deals and the pepperoni pizza is my go-to choice. Could use a bit more cheese but overall really good!",
-    date: '2 weeks ago',
-    image: 'https://randomuser.me/api/portraits/men/55.jpg',
-  },
-  {
-    id: 4,
-    name: 'Amanda Davis',
-    rating: 5,
-    comment: "I ordered catering for my office and everyone was impressed! The variety was excellent and they accommodated our dietary restrictions perfectly.",
-    date: '3 weeks ago',
-    image: 'https://randomuser.me/api/portraits/women/63.jpg',
-  },
-];
+// const testimonials: any = [
+//   {
+//     id: 1,
+//     name: 'Michael Johnson',
+//     rating: 5,
+//     comment: "The best pizza I've ever had! The crust is perfect - crispy on the outside, chewy on the inside. And the toppings are always fresh and abundant.",
+//     date: '3 days ago',
+//     image: 'https://randomuser.me/api/portraits/men/32.jpg',
+//   },
+//   {
+//     id: 2,
+//     name: 'Jessica Williams',
+//     rating: 5,
+//     comment: "Amazing customer service and even better pizza! My family orders from here every Friday night. Their delivery is always on time and the food arrives hot.",
+//     date: '1 week ago',
+//     image: 'https://randomuser.me/api/portraits/women/44.jpg',
+//   },
+//   {
+//     id: 3,
+//     name: 'Robert Smith',
+//     rating: 4,
+//     comment: "Great quality for the price. I love their special deals and the pepperoni pizza is my go-to choice. Could use a bit more cheese but overall really good!",
+//     date: '2 weeks ago',
+//     image: 'https://randomuser.me/api/portraits/men/55.jpg',
+//   },
+//   {
+//     id: 4,
+//     name: 'Amanda Davis',
+//     rating: 5,
+//     comment: "I ordered catering for my office and everyone was impressed! The variety was excellent and they accommodated our dietary restrictions perfectly.",
+//     date: '3 weeks ago',
+//     image: 'https://randomuser.me/api/portraits/women/63.jpg',
+//   },
+// ];
 
 const FeedbackPage = () => {
   const [formData, setFormData] = useState({
