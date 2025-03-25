@@ -58,18 +58,18 @@ const MenuPage = () => {
 
   // Function to render pizza size prices (now used at category level)
   const renderPizzaSizes = (sizes: any) => (
-    <div className="flex justify-between text-sm mb-6 w-1/2 !important">
+    <div className="flex justify-between text-sm mb-6 w-full md:w-1/2 !important">
       <div>
-        <div className="text-md text-gray-500 text-center">9" SMALL</div>
+        <div className="text-lg text-gray-400 text-center">9" SMALL</div>
         <div className="text-2xl text-orange-500 font-bold text-center">${sizes.small.toFixed(2)}</div>
       </div>
       <div>
-        <div className="text-md text-gray-500 text-center">12" LARGE</div>
+        <div className="text-lg text-gray-400 text-center">12" LARGE</div>
         <div className="text-2xl text-yellow-500 font-bold text-center">${sizes.large.toFixed(2)}</div>
       </div>
       <div>
-        <div className="text-md text-gray-500 text-center">18" X-LARGE</div>
-        <div className="text-2xl text-amber-400 font-bold text-center">${sizes.xlarge.toFixed(2)}</div>
+        <div className="text-lg text-gray-400 text-center">18" X-LARGE</div>
+        <div className="text-2xl text-[#FF4500] font-bold text-center">${sizes.xlarge.toFixed(2)}</div>
       </div>
     </div>
   );
